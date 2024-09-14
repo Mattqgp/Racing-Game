@@ -24,7 +24,9 @@ public class CheckpointManager : MonoBehaviour
         if (hit.Length > 0)
         {
             Debug.Log("Next");
-            nextCheckpoint++;
+            if (nextCheckpoint == checkpoints.Length) nextCheckpoint = 1;
+            else nextCheckpoint++;
+
         }
 
         for (int i = 0; i < checkpoints.Length; i++)

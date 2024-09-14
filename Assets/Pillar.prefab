@@ -257,3 +257,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: -5
+  popupText: {fileID: 6082229263013344097, guid: d55874310b23db4409f939e17ee82c76, type: 3}
+  popupOffset: {x: 0, y: 1, z: 2}
